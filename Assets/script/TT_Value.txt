@@ -1,0 +1,6 @@
+﻿TTdesk :
+    scale (0.8f, 0.8f, 0.8f)
+    Euler (0, 0, 0);
+TTfish:
+    scale (0.1734602f, 0.1734602f, 0.1734602f);
+    Euler (90, 0, 0);
