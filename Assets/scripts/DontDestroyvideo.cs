@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 
 public class DontDestroyvideo : MonoBehaviour
 {
     public int A;
-    public GameObject[] clocks;
+    public GameObject[] digitclock;
     // Start is called before the first frame update
     void Start()
-    {   
-       clocks = GameObject.FindGameObjectsWithTag("clock");
+    {
+
+        digitclock = GameObject.FindGameObjectsWithTag("digitclock");
     }
 
     // Update is called once per frame
@@ -21,14 +23,18 @@ public class DontDestroyvideo : MonoBehaviour
         if (A >= 1)
         {
             DontDestroyOnLoad(this.gameObject);
-            if (clocks.Length > 1)
+            if (digitclock.Length > 1)
             {
-                Destroy(clocks[1]);
+                Destroy(digitclock[1]);
             }
         }
         else
         {
             Destroy(this.gameObject);
         }
+    }
+    public void ending()
+    {
+        Destroy(this.gameObject);
     }
 }

@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class switchscene : MonoBehaviour
 {
+    public string scenename;
     public void onClick()
     {
-        SceneManager.LoadScene("第一關");
+        SceneManager.LoadScene(scenename);
     }
     // Start is called before the first frame update
     public void Back()
