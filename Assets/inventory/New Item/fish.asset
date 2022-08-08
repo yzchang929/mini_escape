@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: fish
   m_EditorClassIdentifier: Assembly-CSharp::Item
   ItemName: Fish
-  ItemImage: {fileID: 21300000, guid: d4e677f307fd8d64ab38b45535c69951, type: 3}
+  ItemImage: {fileID: 21300000, guid: 690e7067ae9d95d40a8017ce231e5148, type: 3}
   Iteminfo: It is a Fish!!!!
