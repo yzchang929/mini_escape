@@ -31,7 +31,7 @@ public class ItemToBag : MonoBehaviour
         if (!playerinventory.ItemList.Contains(TargetItem))
         {
             playerinventory.ItemList.Add(TargetItem);
-            if(GameObject.Find("Canvas").GetComponent<MoveButton>().ButtonNow== StageNow)//
+            if(GameObject.Find("Canvas").GetComponent<InventoryManager>().ButtonNow== StageNow)//
                 InventoryManager.CreatNewItem(TargetItem);
         }
     }

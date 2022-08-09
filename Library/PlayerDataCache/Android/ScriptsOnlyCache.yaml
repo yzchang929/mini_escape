@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BagManager
     - DontDestroyvideo
     - GMentercode
     - GameManager
@@ -9,7 +8,6 @@ ScriptsOnlyBuild:
     - InventoryManager
     - Item
     - ItemToBag
-    - MoveButton
     - ScaleAndRotate
     - Slot
     - TargetTrigger
@@ -226,13 +224,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 12618}
-    - Class: 114
       Script: {instanceID: 12652}
     - Class: 114
       Script: {instanceID: 12754}
-    - Class: 114
-      Script: {instanceID: 12790}
     - Class: 114
       Script: {instanceID: 12854}
     - Class: 114
@@ -348,6 +342,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11338}
     - Class: 114
+      Script: {instanceID: 11532}
+    - Class: 114
       Script: {instanceID: 11544}
     - Class: 114
       Script: {instanceID: 11600}
@@ -368,8 +364,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12492}
     - Class: 114
-      Script: {instanceID: 12618}
-    - Class: 114
       Script: {instanceID: 12652}
     - Class: 114
       Script: {instanceID: 12750}
@@ -381,6 +375,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13318}
     - Class: 114
       Script: {instanceID: 13504}
+    - Class: 114
+      Script: {instanceID: 13522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1264,12 +1260,6 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: b36121e06778300250970a048a53184f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BagManager
-  - hash:
-      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1720,7 +1710,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 6c28967bb31915235e56489c4782af6b
+      Hash: 3ad840762f460f838cf0e0a859216e43
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InventoryManager
@@ -1956,9 +1946,9 @@ ScriptsOnlyBuild:
   scenePathNames:
   - "Assets/Scenes/\u8D77\u59CB\u756B\u9762.unity"
   - "Assets/Scenes/\u4E5D\u5DDD.unity"
-  - "Assets/Scenes/\u7B2C\u4E00\u95DC\u5BC6\u78BC.unity"
   - "Assets/Scenes/\u7B2C\u4E00\u95DC\u6383\u63CF.unity"
-  - "Assets/Scenes/\u7B2C\u516D\u95DC\u5BC6\u78BC.unity"
+  - "Assets/Scenes/\u7B2C\u4E00\u95DC\u5BC6\u78BC.unity"
   - "Assets/Scenes/\u7B2C\u516D\u95DC\u6383\u63CF.unity"
+  - "Assets/Scenes/\u7B2C\u516D\u95DC\u5BC6\u78BC.unity"
   - "Assets/Scenes/\u7D50\u5C40.unity"
-  playerPath: D:/unity/mini escape/012.apk
+  playerPath: D:/unity/mini escape/013.apk
