@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
+
 public class TargetTrigger : MonoBehaviour, ITrackableEventHandler
 {
     public Vector3 Scalein;
@@ -31,7 +32,7 @@ public class TargetTrigger : MonoBehaviour, ITrackableEventHandler
             //Debug.Log("type = " + TB.TrackableName.GetType());
             if (TB.TrackableName == "table")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(1);
-            else if (TB.TrackableName == "fish")
+            else if (TB.TrackableName == "fish2")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(2);
         }
         else
