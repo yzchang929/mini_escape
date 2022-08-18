@@ -84,13 +84,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13134}
+      Script: {instanceID: 13132}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 13200}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,13 +143,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11948}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12748}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -224,17 +224,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12650}
     - Class: 114
-      Script: {instanceID: 12754}
+      Script: {instanceID: 12752}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 114
-      Script: {instanceID: 13522}
+      Script: {instanceID: 13520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -287,11 +287,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12748}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -364,19 +364,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12492}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12650}
     - Class: 114
-      Script: {instanceID: 12750}
+      Script: {instanceID: 12748}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 114
-      Script: {instanceID: 13522}
+      Script: {instanceID: 13520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -431,9 +431,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11948}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -496,15 +496,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13502}
     - Class: 114
-      Script: {instanceID: 13652}
+      Script: {instanceID: 13650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1951,4 +1951,4 @@ ScriptsOnlyBuild:
   - "Assets/Scenes/\u7B2C\u516D\u95DC\u6383\u63CF.unity"
   - "Assets/Scenes/\u7B2C\u516D\u95DC\u5BC6\u78BC.unity"
   - "Assets/Scenes/\u7D50\u5C40.unity"
-  playerPath: D:/unity/mini escape/013.apk
+  playerPath: D:/unity/mini escape/022.apk

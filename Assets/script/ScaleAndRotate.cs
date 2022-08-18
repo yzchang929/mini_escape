@@ -8,8 +8,10 @@ public class ScaleAndRotate : MonoBehaviour
     private Touch oldTouch2;  //上次觸摸點2(手指2)
     void Update()
     {
+        Debug.Log("transform.localEulerAngles = " + transform.localEulerAngles);
+
         //沒有觸摸，就是觸摸點為0
-        if (Input.touchCount <= 0)
+            if (Input.touchCount <= 0)
         {
             return;
         }
@@ -18,8 +20,10 @@ public class ScaleAndRotate : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
             Vector2 deltaPos = touch.deltaPosition;
-            transform.Rotate(Vector3.down * deltaPos.x, Space.World);//繞Y軸進行旋轉
-            transform.Rotate(Vector3.right * deltaPos.y, Space.World);//繞X軸進行旋轉，下面我們還可以寫繞Z軸進行旋轉
+            // if((Vector3.down * deltaPos.x).y < 180f && (Vector3.down * deltaPos.x).y > -180f)
+                transform.Rotate(Vector3.down * deltaPos.x, Space.World);//繞Y軸進行旋轉
+            // if((Vector3.right * deltaPos.y).x < 180f && (Vector3.right * deltaPos.y).x > -180f)
+                transform.Rotate(Vector3.right * deltaPos.y, Space.World);//繞X軸進行旋轉，下面我們還可以寫繞Z軸進行旋轉
         }
         //多點觸摸, 放大縮小
         Touch newTouch1 = Input.GetTouch(0);
@@ -44,10 +48,11 @@ public class ScaleAndRotate : MonoBehaviour
                                     localScale.y + scaleFactor,
                                     localScale.z + scaleFactor);
         //在什麼情況下進行縮放
-        if (scale.x >= 0.05f && scale.y >= 0.05f && scale.z >= 0.05f)
+        if ((scale.x >= 1f && scale.y >= 1f && scale.z >= 1f) && (scale.x <= 1.5f && scale.y <= 1.5f && scale.z <= 1.5f))
         {
             transform.localScale = scale;
         }
+
         //記住最新的觸摸點，下次使用
         oldTouch1 = newTouch1;
         oldTouch2 = newTouch2;
