@@ -8,7 +8,7 @@ public class ScaleAndRotate : MonoBehaviour
     private Touch oldTouch2;  //上次觸摸點2(手指2)
     void Update()
     {
-        Debug.Log("transform.localEulerAngles = " + transform.localEulerAngles);
+        //Debug.Log("transform.localEulerAngles = " + transform.localEulerAngles);
 
         //沒有觸摸，就是觸摸點為0
             if (Input.touchCount <= 0)
