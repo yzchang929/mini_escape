@@ -59,6 +59,7 @@ public class countdown : MonoBehaviour
     {
         StopCoroutine(mycountdown);
         Debug.Log("pressed");
+
         timer = m_timer.text;
     }
 }

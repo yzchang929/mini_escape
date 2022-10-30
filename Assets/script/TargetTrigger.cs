@@ -30,10 +30,16 @@ public class TargetTrigger : MonoBehaviour, ITrackableEventHandler
         {
             //Debug.Log("TRACKED");
             //Debug.Log("type = " + TB.TrackableName.GetType());
-            if (TB.TrackableName == "table")
+            if (TB.TrackableName == "Table")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(1);
             else if (TB.TrackableName == "fish2")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(2);
+            else if (TB.TrackableName == "red")
+                GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(3);
+            else if (TB.TrackableName == "blue")
+                GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(4);
+            else if (TB.TrackableName == "green")
+                GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(5);
         }
         else
         {

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: table
   m_EditorClassIdentifier: Assembly-CSharp::Item
   ItemName: Table
-  ItemImage: {fileID: 21300000, guid: ca223a98281284c4d8b890ab9c671c98, type: 3}
+  ItemImage: {fileID: 21300000, guid: ebbb792108f60464fa3b57ef249a3e62, type: 3}
   Iteminfo: Desk!!

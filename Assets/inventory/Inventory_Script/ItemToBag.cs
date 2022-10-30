@@ -8,6 +8,9 @@ public class ItemToBag : MonoBehaviour
     public int StageNow = 1;
     public Item Item_1;
     public Item Item_2;
+    public Item Item_3;
+    public Item Item_4;
+    public Item Item_5;
 
     public Inventory playerinventory;
 
@@ -21,6 +24,15 @@ public class ItemToBag : MonoBehaviour
                 break;
             case 2:
                 AddCore(Item_2);
+                break;
+            case 3:
+                AddCore(Item_3);
+                break;
+            case 4:
+                AddCore(Item_4);
+                break;
+            case 5:
+                AddCore(Item_5);
                 break;
         }
     }
