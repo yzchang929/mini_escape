@@ -667,7 +667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b587996282a4c44aa930a716f368f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: "\u7B2C\u516D\u95DC\u5BC6\u78BC"
+  scenename: "\u7B2C\u4E09\u95DC\u5BC6\u78BC"
 --- !u!1 &408977246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1003,7 @@ GameObject:
   - component: {fileID: 667222184}
   - component: {fileID: 667222183}
   - component: {fileID: 667222182}
+  - component: {fileID: 667222185}
   m_Layer: 5
   m_Name: ch2
   m_TagString: Untagged
@@ -1073,9 +1074,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 810677726}
-        m_MethodName: OnStartGame
-        m_Mode: 5
+      - m_Target: {fileID: 667222185}
+        m_MethodName: onClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1121,6 +1122,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667222180}
   m_CullTransparentMesh: 0
+--- !u!114 &667222185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667222180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b587996282a4c44aa930a716f368f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: "\u7B2C\u4E8C\u95DC\u5BC6\u78BC"
 --- !u!1 &707724312
 GameObject:
   m_ObjectHideFlags: 0

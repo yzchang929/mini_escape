@@ -48,7 +48,8 @@ public class ScaleAndRotate : MonoBehaviour
                                     localScale.y + scaleFactor,
                                     localScale.z + scaleFactor);
         //在什麼情況下進行縮放
-        if ((scale.x >= 1f && scale.y >= 1f && scale.z >= 1f) && (scale.x <= 1.5f && scale.y <= 1.5f && scale.z <= 1.5f))
+        //if ((scale.x >= 1f && scale.y >= 1f && scale.z >= 1f) && (scale.x <= 1.5f && scale.y <= 1.5f && scale.z <= 1.5f))
+        if (scale.x >= 1f && scale.y >= 1f && scale.z >= 1f)
         {
             transform.localScale = scale;
         }

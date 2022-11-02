@@ -11,6 +11,7 @@ public class ItemToBag : MonoBehaviour
     public Item Item_3;
     public Item Item_4;
     public Item Item_5;
+    public Item Item_6;
 
     public Inventory playerinventory;
 
@@ -33,6 +34,9 @@ public class ItemToBag : MonoBehaviour
                 break;
             case 5:
                 AddCore(Item_5);
+                break;
+            case 6:
+                AddCore(Item_6);
                 break;
         }
     }

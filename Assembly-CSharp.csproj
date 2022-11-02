@@ -70,6 +70,7 @@
     <Compile Include="Assets\inventory\Inventory_Script\ItemToBag.cs" />
     <Compile Include="Assets\inventory\Inventory_Script\Slot.cs" />
     <Compile Include="Assets\inventory\Inventory_Script\initializer.cs" />
+    <Compile Include="Assets\script\ChangeImage.cs" />
     <Compile Include="Assets\script\MoveButton.cs" />
     <Compile Include="Assets\script\ScaleAndRotate.cs" />
     <Compile Include="Assets\script\TargetTrigger.cs" />
@@ -91,8 +92,10 @@
     <Compile Include="Assets\scripts\switchscene.cs" />
     <Compile Include="Assets\scripts\track.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\001.xml" />
-    <None Include="Assets\script\TT_Value.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\CH1.xml" />
+    <None Include="Assets\script\TT_Value.txt" />
+    <None Include="Assets\StreamingAssets\Vuforia\CH3.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\CH2.xml" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -272,12 +275,6 @@
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>D:/unity/mini escape/Library/PackageCache/com.ptc.vuforia.engine@8.1.12/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="photo" size="10.000000 9.684721" />
+    <ImageTarget name="poet" size="10.000000 7.222749" />
+    <ImageTarget name="textbook_x" size="10.000000 5.148626" />
+    <ImageTarget name="card" size="10.000000 5.343812" />
+    <ImageTarget name="monji" size="10.000000 7.762906" />
+  </Tracking>
+</QCARConfig>

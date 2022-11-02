@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="last" size="10.000000 10.038462" />
+    <ImageTarget name="magic" size="10.000000 10.000000" />
+    <ImageTarget name="bird" size="10.000000 21.489119" />
+    <ImageTarget name="littleG" size="10.000000 21.993048" />
+    <ImageTarget name="fox" size="10.000000 19.400871" />
+    <ImageTarget name="window" size="10.000000 9.438117" />
+  </Tracking>
+</QCARConfig>
