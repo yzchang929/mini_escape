@@ -84,12 +84,15 @@ public class InventoryManager : MonoBehaviour
         switch (targetStage)
         {
             case 1:
+                slotGrid.GetComponent<UnityEngine.UI.Image>().sprite = Resources.Load<Sprite>("grid_5");
                 Display_Inventory_core(Stage_1_Inventory, targetStage);
                 break;
             case 2:
+                slotGrid.GetComponent<UnityEngine.UI.Image>().sprite = Resources.Load<Sprite>("grid_5");
                 Display_Inventory_core(Stage_2_Inventory, targetStage);
                 break;
             case 3:
+                slotGrid.GetComponent<UnityEngine.UI.Image>().sprite = Resources.Load<Sprite>("grid_6");
                 Display_Inventory_core(Stage_3_Inventory, targetStage);
                 break;
             //case 4:
