@@ -88,6 +88,9 @@
     <Compile Include="Assets\scripts\countdown.cs" />
     <Compile Include="Assets\scripts\endingcode.cs" />
     <Compile Include="Assets\scripts\nextscene.cs" />
+    <Compile Include="Assets\scripts\passwordoff.cs" />
+    <Compile Include="Assets\scripts\problemsolve.cs" />
+    <Compile Include="Assets\scripts\showandhide.cs" />
     <Compile Include="Assets\scripts\startcountdown.cs" />
     <Compile Include="Assets\scripts\switchscene.cs" />
     <Compile Include="Assets\scripts\track.cs" />

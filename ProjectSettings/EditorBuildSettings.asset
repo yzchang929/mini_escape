@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u7D50\u5C40.unity"
     guid: 3a4bb6ab1f6c3654aa7894a71862d083
+  - enabled: 1
+    path: Assets/Scenes/failscene.unity
+    guid: 1440057d951f75c43a64b29df8b284a8
   m_configObjects: {}

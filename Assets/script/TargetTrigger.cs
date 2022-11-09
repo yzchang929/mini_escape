@@ -39,9 +39,9 @@ public class TargetTrigger : MonoBehaviour, ITrackableEventHandler
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(2);
             else if (TB.TrackableName == "red" || TB.TrackableName == "monji" || TB.TrackableName == "bird")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(3);
-            else if (TB.TrackableName == "blue2" || TB.TrackableName == "photo" || TB.TrackableName == "littleG")
+            else if (TB.TrackableName == "blue" || TB.TrackableName == "photo" || TB.TrackableName == "littleG")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(4);
-            else if (TB.TrackableName == "green2" || TB.TrackableName == "poet" || TB.TrackableName == "magic")
+            else if (TB.TrackableName == "green" || TB.TrackableName == "poet" || TB.TrackableName == "magic")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(5);
             else if (TB.TrackableName == "1-6 Panel" || TB.TrackableName == "2-6 model" || TB.TrackableName == "last")
                 GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(6);
@@ -52,9 +52,9 @@ public class TargetTrigger : MonoBehaviour, ITrackableEventHandler
             //    GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(2);
             //else if (TB.TrackableName == "red")
             //    GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(3);
-            //else if (TB.TrackableName == "blue2")
+            //else if (TB.TrackableName == "blue")
             //    GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(4);
-            //else if (TB.TrackableName == "green2")
+            //else if (TB.TrackableName == "green")
             //    GameObject.Find("GameMa").GetComponent<ItemToBag>().AddNewItem(5);
 
             if (jump_Out_File_Name !="")

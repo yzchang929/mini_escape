@@ -179,8 +179,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
+    m_FontSize: 35
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u958B\u59CB"
+  m_Text: "\u9032\u5165\u904A\u6232"
 --- !u!222 &23734536
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -45}
-  m_SizeDelta: {x: 125, y: 50}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 180, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24402752
 MonoBehaviour:
@@ -806,7 +806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 30}
+  m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 500, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &354665744
@@ -830,8 +830,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
+    m_FontSize: 35
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
@@ -997,7 +997,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 222}
+  m_SizeDelta: {x: 425, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &576492991
 MonoBehaviour:
@@ -2063,8 +2063,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 0
+    m_FontSize: 35
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -2121,7 +2121,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 16}
-  m_SizeDelta: {x: 542.6791, y: 567.7258}
+  m_SizeDelta: {x: 542, y: 542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1462055065
 MonoBehaviour:
@@ -2258,9 +2258,6 @@ MonoBehaviour:
   Stage_1_Inventory: {fileID: 11400000, guid: 914d2f51f82bc4e4382e931670372b20, type: 2}
   Stage_2_Inventory: {fileID: 11400000, guid: 9129b377ddb97ba448d14ec711ee26d3, type: 2}
   Stage_3_Inventory: {fileID: 11400000, guid: 8b19e744c20b8aa4ea8e07894ce18f50, type: 2}
-  Stage_4_Inventory: {fileID: 11400000, guid: ef95a7c068d850d4fa271f9072aacb77, type: 2}
-  Stage_5_Inventory: {fileID: 11400000, guid: 507c612787e50a249affd3fb3b0cb097, type: 2}
-  Stage_6_Inventory: {fileID: 11400000, guid: 1660c87c777336b418d33f8777732c7b, type: 2}
 --- !u!4 &1488634303
 Transform:
   m_ObjectHideFlags: 0
@@ -2807,8 +2804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -212}
-  m_SizeDelta: {x: 170, y: 60}
+  m_AnchoredPosition: {x: 0, y: -225}
+  m_SizeDelta: {x: 180, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885209008
 MonoBehaviour:
@@ -3052,7 +3049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 12}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2104008404
@@ -3076,11 +3073,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
+    m_FontSize: 35
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3089,8 +3086,7 @@ MonoBehaviour:
     m_LineSpacing: 1.3
   m_Text: "\u4E00\u6B21\u65C5\u884C\n\u4E3B\u89D2\u548C\u5BB6\u4EBA\u5165\u4F4F\u4E86\u9019\u9593\u6E6F\u5C4B\n\u7136\u800C\u559D\u4E0B\u62DB\u5F85\u8336\u5F8C
     \u5BB6\u4EBA\u537B\u4E0D\u7701\u4EBA\u4E8B\n\u552F\u6709\u5728\u6642\u9650\u5167\u8490\u96C6\u6240\u6709\u7DDA\u7D22
-    \u627E\u51FA\u7B54\u6848\n\u624D\u80FD\u89E3\u6551\u4ED6\u5011...\n---\n\u9EDE\u6B64\u9032\u5165\u904A\u6232\n\u958B\u59CB\u8A08\u6642
-    !"
+    \u627E\u51FA\u7B54\u6848\n\u624D\u80FD\u89E3\u6551\u4ED6\u5011...\n"
 --- !u!222 &2104008405
 CanvasRenderer:
   m_ObjectHideFlags: 0

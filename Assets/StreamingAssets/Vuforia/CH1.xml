@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="messageImage_1666961374809" size="10.000000 23.763065" />
-    <ImageTarget name="messageImage_1666961194176" size="10.000000 23.771711" />
-    <ImageTarget name="messageImage_1666961159459" size="10.000000 23.846153" />
-    <ImageTarget name="green2" size="10.000000 9.850746" />
-    <ImageTarget name="red2" size="10.000000 10.000000" />
-    <ImageTarget name="blue2" size="10.000000 10.043668" />
-    <ImageTarget name="green" size="10.000000 10.000000" />
-    <ImageTarget name="blue" size="10.000000 10.032690" />
+    <ImageTarget name="red" size="10.000000 10.057693" />
+    <ImageTarget name="blue" size="10.000000 10.009747" />
+    <ImageTarget name="green" size="10.000000 10.038462" />
     <ImageTarget name="Table" size="10.000000 5.390525" />
-    <ImageTarget name="red" size="10.000000 10.000000" />
     <ImageTarget name="fish2" size="1.000000 1.478770" />
   </Tracking>
 </QCARConfig>
